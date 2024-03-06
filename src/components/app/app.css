@@ -1,0 +1,263 @@
+@media (min-width: 320px) {
+  .movieDB {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper {
+    width: 420px;
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+  .main {
+    height: max-content;
+    background-color: #ffffff;
+  }
+
+  .wrapper__movie-list__item {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    margin-left: 20px;
+  }
+
+  .movie-list__item {
+    width: 370px;
+    height: max-content;
+    display: flex;
+    column-gap: 5px;
+    margin: 5px;
+    box-shadow: 0px 4px 12px 0px #00000026;
+  }
+
+  .movie-list__item-img {
+    width: 60px;
+    height: 91px;
+    padding-left: 15px;
+  }
+
+  .movie-list__item-col2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+
+  .movie-list__item-col2__title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5px;
+    margin-top: 5px;
+  }
+
+  .movie-list__item-col2__rating {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .movie-list__item-col2__rating__text {
+    display: block;
+    width: 18px;
+    height: 14px;
+    margin: 5px;
+  }
+
+  .movie-list__item-col2__title {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .movie-list__item-col2__data {
+    font-weight: 400;
+    font-size: 12px;
+    color: #827e7e;
+  }
+
+  .movie-list__item-col2__janr {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+    font-weight: 400;
+    font-size: 12px;
+    color: #827e7e;
+  }
+
+  .movie-list__item-col2__janr-1 {
+    border: 1px solid;
+    border-color: #827e7e;
+  }
+
+  .movie-list__item-col2__janr-2 {
+    border: 1px solid;
+    border-color: #827e7e;
+  }
+
+  .error {
+    margin: 0 auto;
+  }
+
+  .error-Network {
+    margin: 0 auto;
+    width: max-content;
+  }
+  .header {
+    margin: 15px;
+  }
+
+  .header__form__input {
+    width: 390px;
+    height: 40px;
+  }
+
+  .main-pagination- {
+    display: block;
+    margin-left: 15%;
+  }
+
+  .main-pagination-hidden {
+    display: none;
+  }
+
+  .movie-list__item-col2__overview {
+    margin-bottom: 20px;
+    margin-left: -65px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .movieDB {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper {
+    width: 1100px;
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+  .main {
+    height: max-content;
+    background-color: #ffffff;
+  }
+
+  .wrapper__movie-list__item {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    margin-left: 0px;
+  }
+
+  .movie-list__item {
+    width: 515px;
+    height: max-content;
+    display: flex;
+    column-gap: 15px;
+    margin: 15px;
+    box-shadow: 0px 4px 12px 0px #00000026;
+  }
+
+  .movie-list__item-img {
+    width: max-content;
+    height: 280px;
+    padding-left: 0px;
+  }
+
+  .movie-list__item-col2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  .movie-list__item-col2__title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 15px;
+    margin-top: 10px;
+  }
+
+  .movie-list__item-col2__rating {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .movie-list__item-col2__rating__text {
+    display: block;
+    width: 18px;
+    height: 14px;
+    margin: 5px;
+  }
+
+  .movie-list__item-col2__title {
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .movie-list__item-col2__data {
+    font-weight: 400;
+    font-size: 12px;
+    color: #827e7e;
+  }
+
+  .movie-list__item-col2__janr {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+    font-weight: 400;
+    font-size: 12px;
+    color: #827e7e;
+  }
+
+  .movie-list__item-col2__janr-1 {
+    border: 1px solid;
+    border-color: #827e7e;
+  }
+
+  .movie-list__item-col2__janr-2 {
+    border: 1px solid;
+    border-color: #827e7e;
+  }
+
+  .error {
+    margin: 0 auto;
+  }
+
+  .error-Network {
+    margin: 0 auto;
+    width: max-content;
+  }
+  .header {
+    margin: 15px;
+  }
+
+  .header__form__input {
+    width: 1060px;
+    height: 40px;
+  }
+
+  .main-pagination- {
+    display: block;
+    margin-left: 35%;
+  }
+
+  .main-pagination-hidden {
+    display: none;
+  }
+
+  .movie-list__item-col2__overview {
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+}
