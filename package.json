@@ -2,6 +2,7 @@
   "name": "movie-db",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://abdul70057005.github.io/movie-db1.1/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -23,7 +24,9 @@
     "build": "react-scripts build",
     "test": "jest --watchAll --config node_modules/ca-ui-module-test/__jestDist__/jest.config",
     "eject": "react-scripts eject",
-    "prepare": "husky"
+    "prepare": "husky",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
